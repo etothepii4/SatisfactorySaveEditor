@@ -53,7 +53,7 @@ namespace SatisfactorySaveParser
             {
                 if (stream.Length == 0)
                 {
-                    throw new Exception("Save file is completely empty");
+                    throw new Exception("Save file is completely empty.");
                 }
 
                 Header = FSaveHeader.Parse(reader);
